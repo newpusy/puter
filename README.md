@@ -26,7 +26,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Then open your browser and navigate to `http://localhost:4100`.
+Then open your browser and navigate to `http://localhost:4200`.
 
 ### Manual Setup
 
@@ -48,8 +48,10 @@ Copy `.env.example` to `.env` and edit the values as needed.
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `PUTER_PORT` | Port to listen on | `4100` |
+| `PUTER_PORT` | Port to listen on | `4200` |
 | `PUTER_DATA_DIR` | Directory for persistent data | `./data` |
+
+> **Note:** I changed the default port from `4100` to `4200` since 4100 conflicts with another service I run locally.
 
 ## Development
 
