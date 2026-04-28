@@ -53,6 +53,8 @@ Copy `.env.example` to `.env` and edit the values as needed.
 
 > **Note:** I changed the default port from `4100` to `4200` since 4100 conflicts with another service I run locally.
 
+> **Note:** If you're running Docker as a non-root user and the `./data` directory doesn't exist yet, create it manually first (`mkdir -p ./data`) — otherwise Docker will create it as root and Puter won't be able to write to it.
+
 ## Development
 
 ```bash
