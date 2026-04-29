@@ -28,6 +28,8 @@ docker compose up -d
 
 Then open your browser and navigate to `http://localhost:4200`.
 
+> **Tip:** If the UI doesn't load after starting, check the logs with `docker compose logs -f` — usually it just needs another few seconds to finish initializing.
+
 ### Manual Setup
 
 **Requirements:**
